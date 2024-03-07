@@ -1,6 +1,6 @@
 from pyModbusTCP.client import ModbusClient
 from time import sleep
-import threading
+# import threading
 client = ModbusClient('localhost', 550)
 
 
